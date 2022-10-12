@@ -8,3 +8,11 @@ var car = {
 }
 Output: [“brand”, “model”, “year”]
 */
+
+const car = {
+    brand: "Volvo",
+    model: "V60",
+    year: "2021"
+}
+
+Object.keys(car).forEach((prop)=> console.log(prop));
